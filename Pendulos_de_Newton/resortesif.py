@@ -21,7 +21,7 @@ import matplotlib.animation as animation
 def resortes(p, t, k, m, g, l, b, a):
     p1, p1v, p2, p2v, p3, p3v, p4, p4v, p5, p5v = p
     if abs(p1-p2)>=a :
-        F12 = 0
+        F12 = 0 
     else:
         F12 = (k/m)*(p1-p2)
     if abs(p2-p3)>=a :
