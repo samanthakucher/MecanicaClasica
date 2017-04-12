@@ -25,7 +25,7 @@ l = 360.2e3 #m
 #condiciones iniciales
 x0 = [981009e3, 0.001, 0, 0.01, 0, 0.00000633827] 
 #x0 = [981009e3, 0.001, 0, 0.01, 0, 0.00000633827] #hace la vuelta entera
-
+ 
 sol = odeint(h, x0, t, args = (G, l, M,)) #integra
 
 #Radio constante:
